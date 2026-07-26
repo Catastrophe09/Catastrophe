@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A modern, free static website starter ready for GitHub Pages." />
+    <title>Catastrophe | Free Website Starter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="logo" href="#hero" aria-label="Catastrophe home">Catastrophe</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Toggle navigation</span>
+          ☰
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#features">Features</a>
+          <a href="#launch">Launch</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Free static website starter</p>
+          <h1>Publish a polished website online without paying for hosting.</h1>
+          <p class="hero-copy">
+            Customize this one-page site, push it to GitHub, and enable GitHub Pages to make it available publicly for free.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#launch">Launch for free</a>
+            <a class="button secondary" href="#features">See what is included</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Website launch checklist">
+          <h2>Launch checklist</h2>
+          <ul>
+            <li>Update your name, brand, and copy</li>
+            <li>Commit changes to GitHub</li>
+            <li>Turn on GitHub Pages</li>
+            <li>Share your live URL</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <p class="eyebrow">What you get</p>
+        <h2>A simple foundation you can edit quickly.</h2>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="icon">⚡</span>
+            <h3>Fast and lightweight</h3>
+            <p>No build tools or paid services are required. It is plain HTML, CSS, and JavaScript.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon">📱</span>
+            <h3>Mobile friendly</h3>
+            <p>The layout adapts to phones, tablets, and desktops with accessible navigation.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon">🎨</span>
+            <h3>Easy to customize</h3>
+            <p>Change the colors, sections, and text to fit a portfolio, business, project, or event.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section launch" id="launch">
+        <div>
+          <p class="eyebrow">Go online</p>
+          <h2>Deploy with GitHub Pages in minutes.</h2>
+          <p>
+            GitHub Pages hosts static websites from a repository at no cost. Use the steps in the README to publish this site.
+          </p>
+        </div>
+        <ol class="steps">
+          <li>Create or open your GitHub repository.</li>
+          <li>Upload these files or push this branch.</li>
+          <li>Open Settings → Pages.</li>
+          <li>Choose the branch and root folder, then save.</li>
+        </ol>
+      </section>
+
+      <section class="section contact" id="contact">
+        <p class="eyebrow">Next steps</p>
+        <h2>Make it yours.</h2>
+        <p>Replace this section with your email, social links, newsletter signup, or a call to action.</p>
+        <a class="button primary" href="mailto:hello@example.com">Contact me</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Catastrophe. Built for free hosting.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
